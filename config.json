@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Thanh Phan"
+  },
+  "text": {
+    "more": "",
+    "intro": "Pubmed search\u003d\"multiple sclerosis\"\nText search\u003dmultiple sclerosis, relapsing remitting, neurodegeneration, disability",
+    "title": "Multiple Sclerosis"
+  },
+  "legend": {
+    "edgeLabel": "weight",
+    "colorLabel": "modularity_class",
+    "nodeLabel": "name"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "name",
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": "Modularity Class"
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 5,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 7
+    },
+    "graphProperties": {
+      "maxEdgeSize": 4,
+      "minEdgeSize": 0.5,
+      "minNodeSize": 1,
+      "maxNodeSize": 14
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
