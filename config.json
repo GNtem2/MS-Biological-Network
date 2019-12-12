@@ -5,12 +5,12 @@
   "logo": {
     "file": "",
     "link": "",
-    "text": "Thanh Phan"
+    "text": "gntem2"
   },
   "text": {
     "more": "",
-    "intro": "Pubmed search\u003d\"multiple sclerosis\"\nText search\u003dmultiple sclerosis, relapsing remitting, neurodegeneration, disability",
-    "title": "Multiple Sclerosis"
+    "intro": "Pubmed search\u003d\"MS\nText search\u003d multiple sclerosis relapsing remitting demyelination remyelination inflammation biomarker mri neurodegernation disability stem cell transplant inside-out outside-in virus-induced anti-inflammatories gut gut-brain microbiota",
+    "title": "Pathologic Myopia"
   },
   "legend": {
     "edgeLabel": "weight",
@@ -19,11 +19,11 @@
   },
   "features": {
     "search": true,
-    "groupSelectorAttribute": "name",
+    "groupSelectorAttribute": "Modularity Class",
     "hoverBehavior": "default"
   },
   "informationPanel": {
-    "groupByEdgeDirection": false,
+    "groupByEdgeDirection": true,
     "imageAttribute": "Modularity Class"
   },
   "sigma": {
@@ -33,17 +33,17 @@
       "defaultLabelBGColor": "#ddd",
       "activeFontStyle": "bold",
       "defaultLabelColor": "#000",
-      "labelThreshold": 5,
+      "labelThreshold": 10,
       "defaultLabelHoverColor": "#fff",
       "fontStyle": "bold",
       "hoverFontStyle": "bold",
-      "defaultLabelSize": 7
+      "defaultLabelSize": 14
     },
     "graphProperties": {
-      "maxEdgeSize": 4,
-      "minEdgeSize": 0.5,
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
       "minNodeSize": 1,
-      "maxNodeSize": 14
+      "maxNodeSize": 7
     },
     "mouseProperties": {
       "maxRatio": 20,
